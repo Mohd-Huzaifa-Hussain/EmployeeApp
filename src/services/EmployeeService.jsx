@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const EMPLOYEE_API_BASE_URL = "http://emprm.onrender.com//api/v1/employees";
+const EMPLOYEE_API_BASE_URL = "http://emprm.onrender.com/api/v1/employees";
 
 export const getEmployees = () => {
   return axios.get(EMPLOYEE_API_BASE_URL);
